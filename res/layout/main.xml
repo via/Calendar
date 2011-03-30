@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#55000000"
+    >
+  <LinearLayout
+    android:id="@+id/desk_panel"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingTop="25dip"
+
+    android:layout_marginLeft="22dip"
+    android:layout_marginTop="18dip"
+    android:layout_marginRight="4dip"
+    >
+
+    <!-- Top small horizontal row with current time -->
+    <LinearLayout
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:layout_gravity="top"
+      android:layout_weight="1"
+      android:layout_marginLeft="4dip"
+      android:layout_marginBottom="6dip"
+      >
+      <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight=".5"
+        >
+        <TextView android:id="@+id/currentTime"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textAppearance="?android:attr/textAppearanceMedium"
+          android:gravity="left"
+          android:layout_weight=".2"
+          android:text="14:12"
+          android:drawablePadding="6dip"
+          android:shadowColor="#C0000000"
+          android:shadowDx="0"
+          android:shadowDy="0"
+          android:shadowRadius="3.0"
+          />
+
+        <TextView android:id="@+id/currentStatus"
+          android:text="OCCUPIED"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight=".6"
+          android:singleLine="true"
+          android:ellipsize="none"
+          android:textSize="48sp"
+          android:textColor="#FFFFFFFF"
+          android:shadowColor="#C0000000"
+          android:shadowDx="0"
+          android:shadowDy="0"
+          android:shadowRadius="3.0"
+          android:paddingBottom="3dip"
+          />
+        <TextView android:id="@+id/currentDuration"
+          android:layout_weight=".2"
+          android:text="Way too long"
+          android:textAppearance="?android:attr/textAppearanceMedium"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          />
+      </LinearLayout>
+
+      <!-- Middle Large Area -->
+      <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight=".5"
+        >
+        <ImageView android:id="@+id/meetingRoom"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="right"
+          android:layout_weight="1"
+          android:src="@drawable/starwars_icon"
+          />
+
+        <TextView android:id="@+id/nextMeeting"
+          android:text="Next Meeting"
+          android:textAppearance="?android:attr/textAppearanceMedium"
+          android:layout_gravity="center"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="20dip"
+          />
+      </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Button button row -->
+    <LinearLayout
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:layout_gravity="bottom"
+      android:layout_weight="0"
+      >
+      <!-- Put buttons here -->
+      <ImageButton android:id="@+id/button1"
+        style="@style/ButtonStripLeft"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_weight=".25"
+        android:src="@drawable/ic_clock_strip_alarm"
+        />
+      <ToggleButton android:id="@+id/button2"
+        style="@style/ButtonStripRight"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_weight=".25"
+        />
+    </LinearLayout>
+
+  </LinearLayout>
+
+</FrameLayout>
+
