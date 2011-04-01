@@ -49,8 +49,8 @@
           android:paddingLeft="20dip"
           />
 
-        <TextView android:id="@+id/meetingStatus"
-          android:text="@string/meetingStatus"
+        <TextView android:id="@+id/currentStatus"
+          android:text="FREE"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
           android:layout_weight=".5"
@@ -105,7 +105,7 @@
           android:layout_marginTop="20dip"
           />
         <TextView android:id="@+id/nextMeetingTime"
-          android:text="15:30-16:15"
+          android:text="14:30-15:30"
           android:textAppearance="?android:attr/textAppearanceMedium"
           android:layout_gravity="center"
           android:layout_width="wrap_content"
@@ -126,7 +126,6 @@
       >
       <!-- Put buttons here -->
       <ImageButton android:id="@+id/button1"
-        android:onClick="@string/alarmButtonHandler"
         style="@style/ButtonStripLeft"
         android:layout_height="fill_parent"
         android:layout_width="fill_parent"
@@ -138,11 +137,10 @@
         android:layout_height="fill_parent"
         android:layout_width="fill_parent"
         android:layout_weight=".25"
-        android:textOff="Come on in"
-        android:textOn="Do Not Disturb"
+        android:textOff="NO"
+        android:textOn="YES"
         />
       <Button android:id="@+id/button3"
-        android:onClick="@string/allEventsButtonHandler"
         style="@style/ButtonStripRight"
         android:layout_height="fill_parent"
         android:layout_width="fill_parent"
@@ -151,19 +149,10 @@
         />
       <Button android:id="@+id/button4"
         style="@style/ButtonStripRight"
-        android:onClick="@string/otherCalendarsButtonHandler"
         android:layout_height="fill_parent"
         android:layout_width="fill_parent"
         android:layout_weight=".25"
         android:text="Other calendars"
-        />
-      <Button android:id="@+id/button5"
-        style="@style/ButtonStripRight"
-        android:onClick="@string/refreshButtonHandler"
-        android:layout_height="fill_parent"
-        android:layout_width="fill_parent"
-        android:layout_weight=".25"
-        android:text="Refresh"
         />
     </LinearLayout>
 

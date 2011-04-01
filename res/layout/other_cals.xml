@@ -157,14 +157,6 @@
         android:layout_weight=".25"
         android:text="Other calendars"
         />
-      <Button android:id="@+id/button5"
-        style="@style/ButtonStripRight"
-        android:onClick="@string/refreshButtonHandler"
-        android:layout_height="fill_parent"
-        android:layout_width="fill_parent"
-        android:layout_weight=".25"
-        android:text="Refresh"
-        />
     </LinearLayout>
 
   </LinearLayout>
