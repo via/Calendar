@@ -63,7 +63,7 @@ public class DockPanel extends Activity
 
       mWebView = (WebView) findViewById(R.id.webview);
       mWebView.getSettings().setJavaScriptEnabled(true);
-      mWebView.loadUrl("http://apps.rackspace.com/a/mobile/index.php?p=calendar&wsid=fWq2Xc3RhcndhcnNAbWFpbHRydXN0LmNvbSxwcnVpR1RiYg2yZ4kx");
+      mWebView.loadUrl("http://www.apps.rackspace.com");
     }
 
     public void otherCalendarsButtonHandler(View view) {
