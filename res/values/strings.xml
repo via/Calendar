@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">DockPanel</string>
+    <string name="meetingStatus">OCCUPIED</string>
+    <string name="alarmButtonHandler">alarmButtonHandler</string>
+    <string name="allEventsButtonHandler">allEventsButtonHandler</string>
+    <string name="otherCalendarsButtonHandler">otherCalendarsButtonHandler</string>
+    <string name="refreshButtonHandler">refreshButtonHandler</string>
 </resources>

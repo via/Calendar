@@ -14,28 +14,43 @@ public final class R {
         public static final int ic_clock_strip_alarm=0x7f020000;
         public static final int icon=0x7f020001;
         public static final int starwars_icon=0x7f020002;
-        public static final int starwars_icon2=0x7f020003;
     }
     public static final class id {
-        public static final int button1=0x7f060006;
-        public static final int button2=0x7f060007;
-        public static final int currentDuration=0x7f060003;
-        public static final int currentStatus=0x7f060002;
-        public static final int currentTime=0x7f060001;
-        public static final int desk_panel=0x7f060000;
-        public static final int meetingRoom=0x7f060004;
-        public static final int nextMeeting=0x7f060005;
+        public static final int button1=0x7f060009;
+        public static final int button2=0x7f06000a;
+        public static final int button3=0x7f06000b;
+        public static final int button4=0x7f06000c;
+        public static final int button5=0x7f06000d;
+        public static final int currentDuration=0x7f060005;
+        public static final int currentMeetingTitle=0x7f060004;
+        public static final int currentStatus=0x7f06000e;
+        public static final int currentTime=0x7f060002;
+        public static final int desk_panel=0x7f060001;
+        public static final int meetingRoom=0x7f060006;
+        public static final int meetingStatus=0x7f060003;
+        public static final int nextMeeting=0x7f060007;
+        public static final int nextMeetingTime=0x7f060008;
+        public static final int webview=0x7f060000;
     }
     public static final class layout {
-        public static final int main=0x7f030000;
+        public static final int all_events=0x7f030000;
+        public static final int main=0x7f030001;
+        public static final int other_cals=0x7f030002;
+        public static final int second=0x7f030003;
     }
     public static final class string {
+        public static final int alarmButtonHandler=0x7f040002;
+        public static final int allEventsButtonHandler=0x7f040003;
         public static final int app_name=0x7f040000;
+        public static final int meetingStatus=0x7f040001;
+        public static final int otherCalendarsButtonHandler=0x7f040004;
+        public static final int refreshButtonHandler=0x7f040005;
     }
     public static final class style {
         public static final int ButtonStripLeft=0x7f050001;
         public static final int ButtonStripMiddle=0x7f050002;
         public static final int ButtonStripRight=0x7f050003;
         public static final int RoundTouchButton=0x7f050000;
+        public static final int Theme=0x7f050004;
     }
 }
